@@ -1,0 +1,2 @@
+# AutoConnectionSchoolWifi
+哈尔滨信息工程学院自动连接校园WIFI
