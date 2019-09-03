@@ -3,3 +3,6 @@
 ################################################################################
 
 /AutoConnectionSchoolWifi/bin
+/AutoConnectionSchoolWifi/obj
+/.vs/AutoConnectionSchoolWifi/v16
+/packages
