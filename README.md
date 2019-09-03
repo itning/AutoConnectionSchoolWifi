@@ -16,6 +16,7 @@
 
 **使用方法**
 
-1. 在用户目录新建文件 ``userinfo``
-2. 文件写入 登录用户名 密码（用英文逗号分隔）
-3. 运行即可
+1. [下载EXE](https://github.com/itning/AutoConnectionSchoolWifi/releases)
+2. 在用户目录新建文件 ``userinfo``
+3. 文件写入 登录用户名 密码（用英文逗号分隔）
+4. 运行即可
