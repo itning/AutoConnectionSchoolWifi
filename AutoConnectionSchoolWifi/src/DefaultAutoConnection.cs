@@ -53,6 +53,7 @@ namespace AutoConnectionSchoolWifi.src
                 if (a == null)
                 {
                     connectionStateCallBack.StateChange("等待WIFI...");
+                    Thread.Sleep(500);
                     continue;
                 }
                 // 连接
