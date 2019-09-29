@@ -57,7 +57,6 @@ namespace AutoConnectionSchoolWifi.src
                 DontFragment = true
             };
 
-            string data = "sendData:baidu";
             int timeout = 1000;
             try
             {

@@ -54,8 +54,15 @@ namespace AutoConnectionSchoolWifi
 
         static void ThreadChild(object callback)
         {
-            var conn = new DefaultAutoConnection((ConnectionStateCallBack)callback);
-            conn.Connection();
+            try
+            {
+                var conn = new DefaultAutoConnection((ConnectionStateCallBack)callback);
+                conn.Connection();
+            }
+            catch(Exception e)
+            {
+                MessageBox.Show(e.Message);
+            }
         }
     }
 }
